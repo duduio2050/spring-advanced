@@ -19,4 +19,10 @@ public class FilterConfig {
 
         return registrationBean;
     }
+
+
+    @Bean
+    public AspectCheckUser getAspectPracticeAop(){
+        return new AspectCheckUser();
+    }
 }
